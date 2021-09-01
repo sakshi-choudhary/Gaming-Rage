@@ -1,2 +1,2 @@
-# Gaming-Rage_18CSE373T
+# Gaming Rage
 18CSE373T Project Work
