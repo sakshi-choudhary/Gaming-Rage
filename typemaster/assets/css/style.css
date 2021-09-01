@@ -27,12 +27,12 @@ h1 {
 .accuracy {
   display: none;
   background-color: #8aff1c;
-  height: 60px;
-  width: 70px;
+  height: 160px;
+  width: 170px;
   margin: 8px;
   text-align: center;
   padding: 42px;
-  border-radius: 100%;
+  border-radius: 20%;
   color: #000000;
   box-shadow: rgb(32, 32, 32) 5px 3px 5px;
 }
