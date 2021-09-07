@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gaming Rage</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://unpkg.com/@tailwindcss/custom-forms/dist/custom-forms.min.css" rel="stylesheet" />
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+        html {
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+    </style>
+</head>
+
+<body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed"
+    style="background-image: url('./assets/header.png');">
+    <div class="h-full">
+        <!--Nav-->
+        <div class="w-full container mx-auto">
+            <div class="w-full flex items-center justify-between">
+                <a class="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+                    href="#">
+                    Gaming<span
+                        class="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500">Rage</span>
+                </a>
+
+
+            </div>
+        </div>
+
+        <!--Main-->
+        <div class="container pt-24   mx-auto flex flex-wrap flex-col md:flex-row items-center">
+            <!--Left Col-->
+            <div class="flex flex-col w-full justify-center lg:items-start overflow-y-hidden">
+                <h1
+                    class="my-4 text-4xl md:text-7xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
+                    Type Master
+
+                </h1>
+
+                <p class="text-gray-100 mt-5 text-lg font-medium">
+                    A game where user can type the given text in a limited amount of time and at last
+                    can check their no. of errors and accuracy %.
+                </p>
+
+                <p class="leading-normal text-base md:text-2xl my-8 text-center md:text-left">
+                    Instructions!
+                </p>
+
+
+                <ul class="text-gray-100 leading-normal list-decimal" style="list-style: circle;">
+                    <li>- See the time interval words must be typed in displayed in the app window</li>
+                    <li>- Click on the 'Stop Practice' button to stop the practice session</li>
+                    <li>- You will be prompted if an incorrect letter is entered</li>
+                    <li>- You will be able to Resume after you stop</li>
+                    <li>- Click on the 'play again' button during a game or after it finishes</li>
+                    <li>- You can check their errors and accuracy % at the end</li>
+                    <li>- You can see correct letter he typed in green and incorrect in red during the game</li>
+
+                </ul>
+
+                <a href="/typemaster/index.html">
+                    <button class="p-10 rounded-lg font-bold bg-gray-900 mt-10">
+                        Enter the Game
+                    </button>
+                </a>
+            </div>
+
+
+
+
+            <!--Footer-->
+            <div class="w-full pt-16 bottom-1 fixed pb-6 text-sm text-center md:text-left fade-in">
+                <a class="text-gray-500 no-underline hover:no-underline" href="#">&copy; 2021</a>
+                - Made with &hearts; by Team
+                <a class="text-gray-300 no-underline hover:no-underline font-bold" href="#">Gaming
+                    Rage</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
