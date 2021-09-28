@@ -7,9 +7,7 @@
   font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
-  background: black
-}
+
 
 .wrapper{
   position: absolute;
@@ -18,7 +16,9 @@ body{
   transform: translate(-50%,-50%);
   max-width: 600px;
   width: 100%;
-  background: rgb(17, 17, 17);
+  /* background: rgb(17, 17, 17); */
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #31242d 0%, #5f0a87 74%);
   padding: 25px;
   border-radius: 5px;
   
@@ -55,7 +55,10 @@ body{
   padding: 10px;
   text-align: center;
   width: 100%;
-  background: #ebebeb;
+  /* background: #ebebeb; */
+  background-color: #9921e8;
+  background-image :linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+  
   color: #332902;
   text-transform: uppercase;
   letter-spacing: 5px;
